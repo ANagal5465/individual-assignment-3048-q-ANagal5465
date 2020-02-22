@@ -4,7 +4,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 /**
  * Author: Anthony Nagal
- * This is the retrofitClient, it builds the RetrofitClientInstance when it is called
+ * This is the retrofitClient, it builds the RetrofitClientInstance when it is called.
  */
 object RetrofitClientInstance {
     private var retrofit: Retrofit? = null;
